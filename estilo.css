@@ -72,23 +72,28 @@ justify-content: center;
   color: rgb(2, 2, 175);
 }
 .social {
-  margin: 50px 0px;
+  margin: 50px ;
 }
 .social .caixas {
   display: flex;
   
 }
 .caixas {
-  background-color: navajowhite;
   display: flex;
   align-items: center;
-  flex-direction: space-between;
+  
 }
 .caixas img{
-  width: 270px;
+  width: 170px;
   display: flex;
 }
+.caixa {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 15px;
 
+}
 .caixa p {
   text-align: center;
   flex-direction: column;
